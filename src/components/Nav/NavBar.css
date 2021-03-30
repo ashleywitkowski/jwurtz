@@ -1,0 +1,29 @@
+.navigation > * > a {
+  font-size: 25px;
+  color: white !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+.menu-item {
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 10px 0;
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.navigation {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.menu-item:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+  color: rgb(151, 197, 170);
+}

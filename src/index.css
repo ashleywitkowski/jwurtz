@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black !important;
+}
+
+@font-face {
+  font-family: "Broadway";
+  src: local("Broadway"),
+    url("./resources/jwLogo/BroadwayFlat3DFilled-Italic.ttf") format("");
+}
+@font-face {
+  font-family: "BroadwayFlat";
+  src: local("BroadwayFlat"),
+    url("./resources/jwLogo/BroadwayFlat-Italic.ttf") format("");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
