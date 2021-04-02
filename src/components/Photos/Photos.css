@@ -1,0 +1,39 @@
+.carousel-inner {
+  background: white;
+  margin: 5px 5px 5px 5px;
+  padding: 20px 25px 25px 22px;
+  width: 100% !important;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  z-index: 0;
+  position: relative;
+}
+.d-block {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: [one] 150px [two] 200px [three] 1050px [four] 60px [five] 130px [end];
+}
+
+.chevronRight {
+  grid-column-start: five;
+  grid-column-end: end;
+}
+.chevronLeft {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}

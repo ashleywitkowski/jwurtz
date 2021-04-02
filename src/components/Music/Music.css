@@ -1,0 +1,52 @@
+/* #musicSocials > * {
+  margin-left: 271px;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  font-size: 90px;
+  color: rgb(58, 121, 146);
+} */
+
+/* .musicRow {
+  display: flex;
+} */
+
+#divider {
+  position: flex;
+  border-left: 5px solid white;
+  height: 100%;
+}
+
+.record {
+  background: linear-gradient(
+        30deg,
+        transparent 40%,
+        rgba(42, 41, 40, 0.85) 40%
+      )
+      no-repeat 100% 0,
+    linear-gradient(60deg, rgba(42, 41, 40, 0.85) 60%, transparent 60%)
+      no-repeat 0 100%,
+    repeating-radial-gradient(#2a2928, #2a2928 4px, #ada9a0 5px, #2a2928 6px);
+}
+.record:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -35px;
+  border: solid 1px #0573e9;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #0056b3, inset 0 0 0 27px #0056b3;
+  background: #b5ac9a;
+  content: "";
+}
+
+.albumCover:hover + .record {
+  margin-left: 415px !important;
+  transition-timing-function: ease-in;
+  transition-duration: 2s;
+}
+
+.albumCover {
+  z-index: 10;
+}

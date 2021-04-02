@@ -1,0 +1,9 @@
+.gridRow {
+  display: grid;
+  grid-template-columns: [one] 30px [two] 40px [three] 850px [four] 60px [five] 30px [end];
+}
+
+.chevronRight {
+  grid-column-start: five;
+  grid-column-end: end;
+}
